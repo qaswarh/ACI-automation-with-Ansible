@@ -14,7 +14,10 @@ Centos ISO at [Download CentOS](https://www.centos.org/download/)
 Cisco APIC Sandbox at [Cisco APIC DC](https://sandboxapicdc.cisco.com)
 
 Ansible Modules as study items
-
+[aci_tenant](https://docs.ansible.com/ansible/latest/modules/aci_tenant_module.html)
+[aci_vrf](https://docs.ansible.com/ansible/latest/modules/aci_vrf_module.html)
+[aci_bd](https://docs.ansible.com/ansible/latest/modules/aci_bd_module.html)
+[aci_bd_subnet](https://docs.ansible.com/ansible/latest/modules/aci_bd_subnet_module.html)
 
 
 Procedure
