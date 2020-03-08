@@ -7,7 +7,7 @@ A request came to show multiple subnets creation on APIC with Ansible
 
 Logistics for this demo
 -----------------------
-Virtual Box
+Virtual Box at 
 
 Centos ISO at [Download CentOS](https://www.centos.org/download/)
 
