@@ -9,7 +9,7 @@ Logistics for this demo
 -----------------------
 Virtual Box
 
-Centos VM with Python3 and Ansible installed
+Centos ISO at 
 
 Cisco APIC Sandbox at [Cisco APIC DC](https://sandboxapicdc.cisco.com)
 
