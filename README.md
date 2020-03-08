@@ -5,8 +5,8 @@ This repository is solely created for a demo on ACI automation with Ansible
 
 A request came to show multiple subnets creation on APIC with Ansible
 
-Logistics for this demo
------------------------
+Requirements for this demo
+--------------------------
 Virtual Box at [VirtualBox.org](https://www.virtualbox.org/)
 
 Centos ISO at [Download CentOS](https://www.centos.org/download/)
