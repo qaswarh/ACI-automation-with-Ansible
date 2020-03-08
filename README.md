@@ -9,7 +9,7 @@ Logistics for this demo
 -----------------------
 Virtual Box
 
-Centos ISO at 
+Centos ISO at [Download CentOS](https://www.centos.org/download/)
 
 Cisco APIC Sandbox at [Cisco APIC DC](https://sandboxapicdc.cisco.com)
 
