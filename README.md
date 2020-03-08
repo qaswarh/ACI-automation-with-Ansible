@@ -5,6 +5,5 @@ A request came to show multiple sunets creation on APIC with Ansible
 
 Logistics for this demo
 -----------------------
-Centos with Python3 and Ansible installed
-
+Centos VM with Python3 and Ansible installed
 Cisco APIC sandbox at [Cisco APIC DC](https://sandboxapicdc.cisco.com)
