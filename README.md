@@ -15,5 +15,5 @@ Cisco APIC Sandbox at [Cisco APIC DC](https://sandboxapicdc.cisco.com)
 ![image](https://user-images.githubusercontent.com/47313728/76161863-9c5f4f00-60f4-11ea-995b-9c1fd51ebe3d.png)
 
 
-![image](https://user-images.githubusercontent.com/47313728/76161919-28717680-60f5-11ea-80bc-18ec4db92fb8.png)
+![image](https://user-images.githubusercontent.com/47313728/76162004-1b08bc00-60f6-11ea-9296-3596692391e7.png)
 
