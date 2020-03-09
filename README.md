@@ -24,7 +24,7 @@ Procedure
 ---------
 [Setup](https://developer.cisco.com/learning/modules/ansible-aci-intro/aci_ansible_part1/step/1) your windows computer if you don't have MAC book 
 
-Install CentOS on Virtual Box or Hypervisor you like
+Install CentOS on Virtual Box or the Hypervisor you like
 
 [Clone](https://github.com/CiscoDevNet/aci_ansible_learning_labs_code_samples) the sample files from CiscoDevNet, modify any file either as per YAML playbook in this repository or as per your need.
 
