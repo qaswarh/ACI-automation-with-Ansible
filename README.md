@@ -28,7 +28,9 @@ Install CentOS on Virtual Box or Hypervisor you like
 
 [Clone](https://github.com/CiscoDevNet/aci_ansible_learning_labs_code_samples) the sample files from CiscoDevNet, modify any file either as per YAML playbook in this repository or as per your need.
 
-Run ansible-paybook to see the same or similar results as below 
+Run ansible-paybook with inventory like credential, interpreter, etc. to see the same or similar results as below
+
+Make sure you create (python3 -m venv venv) and activate (source venv/bin/activate) the python3 venv prior to playing the book
 
 CentOS
 ------
