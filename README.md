@@ -30,7 +30,7 @@ Install CentOS on Virtual Box or Hypervisor you like
 
 Run ansible-paybook with inventory like credential, interpreter, etc. to see the same or similar results as below
 
-Make sure you create (python3 -m venv venv) and activate (source venv/bin/activate) the python3 venv prior to playing the book
+Make sure you create (python3 -m venv venv) and activate (source venv/bin/activate) the python3 venv to play the book
 
 CentOS
 ------
