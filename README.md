@@ -26,7 +26,7 @@ Procedure
 
 Install CentOS on Virtual Box or Hypervisor you like
 
-[clone](https://github.com/CiscoDevNet/aci_ansible_learning_labs_code_samples) the sample files from CiscoDevNet and modify any file as per YAML in this repository or as per your need.
+[Clone](https://github.com/CiscoDevNet/aci_ansible_learning_labs_code_samples) the sample files from CiscoDevNet, modify any file as per YAML in this repository or as per your need.
 
 Run 
 
