@@ -13,12 +13,11 @@ Requirements for this demo
 
 [Cisco APIC Sandbox](https://sandboxapicdc.cisco.com)
 
-Ansible Modules as study items:
 [aci_tenant](https://docs.ansible.com/ansible/latest/modules/aci_tenant_module.html),
 [aci_vrf](https://docs.ansible.com/ansible/latest/modules/aci_vrf_module.html),
-[aci_bd](https://docs.ansible.com/ansible/latest/modules/aci_bd_module.html),
-[aci_bd_subnet](https://docs.ansible.com/ansible/latest/modules/aci_bd_subnet_module.html)
-to modify or create Ansible domain-specific language in YAML
+[aci_bd](https://docs.ansible.com/ansible/latest/modules/aci_bd_module.html) and
+[aci_bd_subnet](https://docs.ansible.com/ansible/latest/modules/aci_bd_subnet_module.html);
+Ansible modules as study items to modify or create Ansible domain-specific language in YAML
 
 Procedure
 ---------
