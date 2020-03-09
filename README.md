@@ -7,11 +7,11 @@ A request came to show multiple subnets creation on APIC with Ansible, the playb
 
 Requirements for this demo
 --------------------------
-Virtual Box at [VirtualBox.org](https://www.virtualbox.org/)
+[Virtual Box](https://www.virtualbox.org/)
 
-Centos ISO at [Download CentOS](https://www.centos.org/download/)
+[Centos ISO](https://www.centos.org/download/)
 
-Cisco APIC Sandbox at [Cisco APIC DC](https://sandboxapicdc.cisco.com)
+[Cisco APIC Sandbox](https://sandboxapicdc.cisco.com)
 
 Ansible Modules as study items:
 [aci_tenant](https://docs.ansible.com/ansible/latest/modules/aci_tenant_module.html),
