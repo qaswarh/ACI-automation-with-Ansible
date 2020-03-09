@@ -3,7 +3,7 @@ Create tenant and subnets in APIC
 
 This repository is solely created for a demo on ACI automation with Ansible
 
-A request came to show multiple subnets creation on APIC with Ansible, though playbook has only two tasks for this demo
+A request came to show multiple subnets creation on APIC with Ansible, the playbook has two tasks for this demo
 
 Requirements for this demo
 --------------------------
