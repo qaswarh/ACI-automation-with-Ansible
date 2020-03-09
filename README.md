@@ -22,6 +22,13 @@ to modify or create Ansible domain-specific language in YAML
 
 Procedure
 ---------
+[Setup](https://developer.cisco.com/learning/modules/ansible-aci-intro/aci_ansible_part1/step/1) your windows computer if you don't have MACbook 
+
+Install CentOS on Virtual Box or Hypervisor you like
+
+[clone](https://github.com/CiscoDevNet/aci_ansible_learning_labs_code_samples) the sample files from CiscoDevNet and modify any file as per YAML in this repository or as per your need.
+
+Run 
 
 ![image](https://user-images.githubusercontent.com/47313728/76161863-9c5f4f00-60f4-11ea-995b-9c1fd51ebe3d.png)
 
