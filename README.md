@@ -41,11 +41,5 @@ Cisco APIC Sandbox
 ------------
 ![image](https://user-images.githubusercontent.com/47313728/76162004-1b08bc00-60f6-11ea-9296-3596692391e7.png)
 
-![image](https://user-images.githubusercontent.com/47313728/76368617-13ac0300-62ee-11ea-98d4-18cf2808538c.png)
-
-![image](https://user-images.githubusercontent.com/47313728/76369044-6cc86680-62ef-11ea-8780-14cf19c9e782.png)
-
-![image](https://user-images.githubusercontent.com/47313728/76369312-5ec71580-62f0-11ea-989b-9a542095d139.png)
-
-
+![image](https://user-images.githubusercontent.com/47313728/76369581-43a8d580-62f1-11ea-8fca-ebb77b9b1897.png)
 
