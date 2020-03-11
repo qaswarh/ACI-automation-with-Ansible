@@ -9,7 +9,7 @@ The next ask was to migrate subents from one bridge to another bridge. For demo 
 
 Due to idempotent nature of ACI modules, configurations are pushed only when the module's parameters are different than what currently exists, and return back the status of the module's execution and what changes were made, if any.
 
-However, you might not have previliges to disturb other tenants
+However, policy might not allow you to make changes in other tenants.
 
 Requirements for this demo
 --------------------------
