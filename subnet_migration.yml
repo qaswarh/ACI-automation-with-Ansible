@@ -1,0 +1,130 @@
+---
+- name: ENSURE APPLICATION CONFIGURATION EXISTS
+  hosts: apic
+  connection: local
+  gather_facts: False
+  vars_prompt:
+    - name: "tenant"
+      prompt: "What would you like to name your Tenant?"
+      private: no
+    - name: "vrf1"
+      prompt: "What would you like to name your 1st vrf?"
+      private: no
+    - name: "vrf2"
+      prompt: "What would you like to name your 2nd vrf?"
+      private: no
+    - name: "bd1"
+      prompt: "What would you like to name your 1st Bridge Domain?"
+      private: no
+    - name: "bd2"
+      prompt: "What would you like to name your 2nd Bridge Domain?"
+      private: no
+
+  tasks:
+    - name: ENSURE APPLICATIONS TENANT EXISTS
+      aci_tenant:
+        host: "{{ ansible_host }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        state: "present"
+        validate_certs: False
+        tenant: "{{ tenant }}"
+        description: "Tenant Created Using Ansible"
+
+    - name: ENSURE TENANT VRF EXISTS
+      aci_vrf:
+        host: "{{ ansible_host }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        state: "present"
+        validate_certs: False
+        tenant: "{{ tenant }}"
+        vrf: "{{ vrf1 }}"
+        description: "VRF Created Using Ansible"
+
+    - name: ENSURE TENANT VRF EXISTS
+      aci_vrf:
+        host: "{{ ansible_host }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        state: "present"
+        validate_certs: False
+        tenant: "{{ tenant }}"
+        vrf: "{{ vrf2 }}"
+        description: "VRF Created Using Ansible"
+
+    - name: ENSURE TENANT BRIDGE DOMAIN EXISTS
+      aci_bd:
+        host: "{{ ansible_host }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        state: "present"
+        validate_certs: False
+        tenant: "{{ tenant }}"
+        bd: "{{ bd1 }}"
+        vrf: "{{ vrf1 }}"
+        description: "BD Created Using Ansible"
+
+    - name: ENSURE TENANT BRIDGE DOMAIN EXISTS
+      aci_bd:
+        host: "{{ ansible_host }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        state: "present"
+        validate_certs: False
+        tenant: "{{ tenant }}"
+        bd: "{{ bd2 }}"
+        vrf: "{{ vrf2 }}"
+        description: "BD Created Using Ansible"
+
+    - name: ENSURE BRIDGE DOMAIN SUBNET EXISTS
+      aci_bd_subnet:
+        host: "{{ ansible_host }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        state: "present"
+        validate_certs: False
+        tenant: "{{ tenant }}"
+        bd: "{{ bd | default('prod_bd') }}"
+        gateway: "10.10.101.1"
+        mask: 24
+        description: "Subnet Created Using Ansible"
+
+    - name: ENSURE BRIDGE DOMAIN SUBNET EXISTS
+      aci_bd_subnet:
+        host: "{{ ansible_host }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        state: "absent"
+        validate_certs: False
+        tenant: "{{ tenant }}"
+        bd: "{{ bd1 }}"
+        gateway: "10.10.103.1"
+        mask: 24
+        description: "Subnet Created Using Ansible"
+
+    - name: ENSURE BRIDGE DOMAIN SUBNET EXISTS
+      aci_bd_subnet:
+        host: "{{ ansible_host }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        state: "absent"
+        validate_certs: False
+        tenant: "{{ tenant }}"
+        bd: "{{ bd2 }}"
+        gateway: "10.10.102.1"
+        mask: 24
+        description: "Subnet Created Using Ansible"
+
+    - name: ENSURE BRIDGE DOMAIN SUBNET EXISTS
+      aci_bd_subnet:
+        host: "{{ ansible_host }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        state: "present"
+        validate_certs: False
+        tenant: "{{ tenant }}"
+        bd: "{{ bd2 }}"
+        gateway: "10.10.104.1"
+        mask: 24
+        description: "Subnet Created Using Ansible"
