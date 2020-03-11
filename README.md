@@ -6,7 +6,7 @@ This repository is solely created for a demo on ACI automation with Ansible
 A request came to show multiple subnets creation on APIC with Ansible, the playbook has two subnet tasks for the first demo.
 The next ask was to migrate subents from one bridge to another bridge. For demo purpose this was achieved simply by adding couple of more subnet tasks and making their state 'absent'. After that bridge assignment changed and state back to 'present'.
 
-Due to idempotent nature of ACI modules configurations are pushed only when the module's parameters are different than what currently exists, and return back the status of the module's execution and what changes were made, if any.
+Due to idempotent nature of ACI modules, configurations are pushed only when the module's parameters are different than what currently exists, and return back the status of the module's execution and what changes were made, if any.
 
 However, you might not have previliges to disturb other tenants
 
