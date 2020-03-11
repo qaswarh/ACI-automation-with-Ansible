@@ -4,6 +4,7 @@ Create tenant and subnets in APIC
 This repository is solely created for a demo on ACI automation with Ansible
 
 A request came to show multiple subnets creation on APIC with Ansible, the playbook has two subnet tasks for this demo
+The next ask was to migrate subents from one bridge to another bridge. For demo purpose this was achieved simply by adding couple of more subnet tasks, then making their state absent, changing their bridge assignment and stat present again.
 
 Requirements for this demo
 --------------------------
@@ -38,7 +39,7 @@ CentOS
 ![image](https://user-images.githubusercontent.com/47313728/76368348-28d46200-62ed-11ea-82dc-e40fb411ffe6.png)
 
 Cisco APIC Sandbox
-------------
+------------------
 ![image](https://user-images.githubusercontent.com/47313728/76162004-1b08bc00-60f6-11ea-9296-3596692391e7.png)
 
 ![image](https://user-images.githubusercontent.com/47313728/76369581-43a8d580-62f1-11ea-8fca-ebb77b9b1897.png)
